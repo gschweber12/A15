@@ -200,6 +200,10 @@ footer p {
 	padding: 1em 0;
 }
 
+#mobile_menu {
+	display: none;
+}
+
 @media only screen and (max-width: 959px) {
 	section h1 { font-size: 135%; }
 	section h2, aside h2{ font-size: 120%; }
@@ -223,4 +227,17 @@ footer p {
 		-webkit-column-count: 2;
 		column-count: 2;
 	}
+	#nav-menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000 !important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	body { font-size: 90%; }
 }
